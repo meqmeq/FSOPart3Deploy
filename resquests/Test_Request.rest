@@ -5,7 +5,7 @@ POST http://localhost:3001/api/notes/ HTTP/1.1
 content-type: application/json
 
 {
-    "name": "sample",
+    "content": "sample",
     "time": "Wed, 21 Oct 2015 18:27:50 GMT"
 }
 
@@ -15,5 +15,5 @@ content-type: application/json
 
 {
     "content": "VS Code REST Client is a good tool for testing REST apis",
-    "important": true
+    "important": false
 }
